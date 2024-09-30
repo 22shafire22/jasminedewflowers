@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+body {
+  background-color: rgb(1, 38, 34);
+  color: rgb(220, 214, 247);
+ font-family: 'Nanum Myeongjo'; 
+}
+
+body {
+  text-align: center;
+  display: flex
+
+}
+h6 {
+  font-size: 50px;
+}
+
+ p {
+  font-size: xx-large;
+ }
+
+#JRF {
+  margin-right: auto;
+}
+
+#navbar {
+
+  background-color: rgb(38, 92, 73);
+  color: rgb(1, 38, 34);  display: flex;
+}
+
+
+a:hover {
+  background-color: rgb(1, 38, 34);
+}
+
+.footer-text-left {
+  font-size: 25px;
+  padding-left: 40px;
+  float: left;
+  word-spacing: 20px;
+}
+
+ #navbar {                    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ padding: 1%;
+  font-size: x-large;
+   font-family: 'Manrope';
+   }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+  background-color: rgb(38, 92, 73);
+  font-family: 'Manrope';}
+
+a {
+  background-color: rgb(38, 92, 73);
+  color: rgb(220, 214, 220);}
+
+a:hover {
+  background-color: rgb(86, 77, 128);
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+  color: rgb(220, 214, 247);}
+
+ img {
+  float: left;
+  width: 50%;
+  object-fit: cover; 
+} 
+section,
+article {
+  display: grid;
+}
+
+section {
+  grid-gap: 1em;
+  grid-template:
+    repeat(3, max-content) /
+    repeat(auto-fit, minmax(min(15em, 100%), 1fr));
+}
+
+article {
+  grid-template-rows: subgrid;
+  grid-row-end: span 3;
+  background: rgb(86, 77, 128);
+}
+
+h2,
+a {
+  padding: 0.5rem;
+}
+
+h2 {
+  grid-row: 3;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+}
+
+ img { 
+  grid-row: 1;
+  width: 100%;
+  object-fit: cover;
+}  
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box a {
+  padding: 15px;
+  background-color: rgb(86, 77, 128);
+  border-radius: 3px;
+  text-decoration: none;
+ font-size: 50px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(204, 203, 203, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  position: relative;
+  background:rgb(86, 77, 128);
+  padding: 1em 2em;
+  border-radius: 4px;
+}
+
+.modal:target {
+  display: flex;
+}
+div {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+
+details{
+  font-size: xx-large;
+  font-family: 'Nanum Myeongjo'; 
+}
+
+
+.fcf-form-group {
+  padding-top: 50px;
+  margin-bottom: 1rem;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.fcf-input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  
+}
+.fcf-h3 {
+  font-size: 50px;
+  font-family: 'Nanum Myeongjo'; 
+}
+
+.fcf-form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: large;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+  border: 1px solid #313131;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+  height: auto;
+}
+
+textarea.fcf-form-control {
+  font-family: 'Nanum Myeongjo'; 
+  height: auto;
+}
+
+label.fcf-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #545b62;
+}
+
+.fcf-credit a {
+  color: #545b62;
+  text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+  color: rgb(86, 77, 128);
+  text-decoration: underline;
+}
+
+.fcf-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: larger;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fcf-btn {
+      transition: none;
+  }
+}
+
+.fcf-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+  color: #fff;
+  background-color: rgb(86, 77, 128);
+  border-color: rgb(86, 77, 128);
+}
+
+.fcf-btn-primary:hover {
+  color: #fff;
+  background-color: rgb(38, 92, 73);
+  border-color: rgb(38, 92, 73);
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+  padding: 0.5rem 1rem;
+  font-size: larger;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+  display: block;
+  width: 100%;
+}
+
+.fcf-btn-block+.fcf-btn-block {
+  margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+  width: 100%;
+}
